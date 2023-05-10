@@ -2,7 +2,9 @@
 
 [中文說明](README.zh-tw.md)
 
-JS Content Dependency Viewer is a command-line utility for Node.js. It outputs the content of a specified JavaScript file along with the contents of all the JavaScript-related files (like .js, .jsx, .ts, etc.) it directly or indirectly depends on within the same project. This tool can be particularly helpful when you need to discuss your code with others (like chatGPT), as it allows you to easily share the context of your main file, as well as its dependencies, without requiring you to expose the entire project.
+JS Content Dependency Viewer is a command-line utility for Node.js. It outputs the content of a specified JavaScript file along with the contents of all the JavaScript-related files (like .js, .jsx, .ts, etc.) it directly or indirectly depends on within the same project.
+
+This tool can be particularly helpful when you need to discuss your code with others (like chatGPT), as it allows you to easily share the context of your main file, as well as its dependencies, without requiring you to expose the entire project.
 
 ## Installation
 
