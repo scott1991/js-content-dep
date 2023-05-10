@@ -1,0 +1,20 @@
+{
+  "name": "js-content-dep",
+  "version": "1.0.0",
+  "description": "A command-line tool to list the contents of a JavaScript file and its dependencies.",
+  "bin": {
+    "js-content-dep": "index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scott1991/js-content-dep.git"
+  },
+  "keywords": [
+    "javascript",
+    "dependency",
+    "command-line",
+    "tool"
+  ],
+  "license": "ISC"
+}
