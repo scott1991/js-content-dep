@@ -7,7 +7,7 @@ JS Content Dependency Viewer是一款 Node.js 的命令列工具。它可以輸�
 要使用 npm global安裝此工具，請執行以下命令：
 
 ```bash
-npm install https://github.com/yourname/js-content-dep.git -g
+npm install https://github.com/scott1991/js-content-dep.git -g
 ```
 
 ## 使用
