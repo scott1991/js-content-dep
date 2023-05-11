@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import readFile from './readFile.js';
 
 function main() {
