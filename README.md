@@ -24,6 +24,14 @@ js-content-dep <file path>
 
 Replace `<file path>` with the path to the JavaScript file you want to view.
 
+This command prints the output to stdout. To save the output to a file, use the following:
+
+```bash
+js-content-dep <file path> > <output file path>
+```
+
+Replace `<output file path>` with the path where you want to save. This command will overwrite the file if it already exists or create a new one at the specified location.
+
 The tool will then print the contents of the specified file, followed by the contents of all files that are `import`ed or `require`d by it within the same project. Files from `node_modules` or other non-relative or absolute paths are not included.
 
 For example, if you have a file `App.js` which imports `./Header.js` and `./Footer.js`, you can view the content of these files with the following command:

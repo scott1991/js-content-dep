@@ -18,7 +18,15 @@ npm install https://github.com/scott1991/js-content-dep.git -g
 js-content-dep <file path>
 ```
 
-將 `<file path>` 替換為您想查看的 JavaScript 檔案的路徑。
+將 `<file path>` 替換為您想要檢視的JavaScript檔案路徑。
+
+這個命令將輸出內容到stdout。若要將輸出內容保存到檔案，請使用以下命令：
+
+```bash
+js-content-dep <file path> > <output file path>
+```
+
+將 `<output file path>` 替換為您希望保存輸出檔案的路徑。如果該文件已經存在，此命令將覆蓋該文件；如果不存在，將在指定位置創建新檔案。
 
 然後，工具將輸出指定檔案的內容，以及在同一專案中被它 `import` 或 `require` 的所有檔案的內容。不包括來自 `node_modules` 或其他非相對或絕對路徑的檔案。
 
